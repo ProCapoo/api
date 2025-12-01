@@ -1,6 +1,5 @@
-// package.json（最簡版）
 {
-  "name": "my-api",
+  "name": "my-render-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,5 +7,8 @@
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "20.x"  // 指定 Node 版本，Render 會自動用
   }
 }
